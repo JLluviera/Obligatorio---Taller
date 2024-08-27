@@ -219,27 +219,33 @@
     <div class="container-lg mx-auto p-5 text-center">
         <h4 class="barlow-condensed-medium-secondary text-center text-uppercase">vista previa y ajustes</h4>
     </div>
-        <div class="barlow-condensed-medium-secondary container-md m-3 text-center"> 
+        <div class="barlow-condensed-medium-secondary container-md mx-auto p-5 text-start"> 
             <h3>BASE DEL VINO :<span class="opcion" id="span-vino"></span></h3>
-            <div d-md-inline-flex>
-            <h3>FRUTAS FRESCAS :<span class="opcion" id="span-frutas"></span></h3>
-            <label for="cantFruta" class="form-label">CANTIDAD DE FRUTA A AGREGAR</label>
-            <input type="range" class="form-range" id="cantFruta" min="0" max="100">
+            <div class="d-inline">
+                <h3>FRUTAS FRESCAS :<span class="opcion" id="span-frutas"></span></h3>
+                <label for="cantFruta" class="form-label">CANTIDAD DE FRUTA A AGREGAR</label>
+                <input type="range" class="form-range" id="cantFruta" min="0" max="100" value="0">
             </div>
-            <div>
-            <h3>ENDULZANTE :<span class="opcion" id="span-endulzante"></span></h3>
+            <div class="d-inline">
+                <h3>ENDULZANTE :<span class="opcion" id="span-endulzante"></span></h3>
+                <label for="cantEndulzante" class="form-label">CANTIDAD DE ENDULZANTE A AGREGAR</label>
+                <input type="range" class="form-range" id="cantEndulzante" min="0" max="100" value="0">
             </div>
-            <div>
-            <h3>LICORES :<span class="opcion" id="span-licores"></span></h3>
+            <div class="d-inline">
+                <h3>LICORES :<span class="opcion" id="span-licores"></span></h3>
+                <label for="cantBebida" class="form-label">CANTIDAD DE BEBIDA A AGREGAR</label>
+                <input type="range" class="form-range" id="cantBebida" min="0" max="100" value="0">
             </div>
-            <div>
-            <h3>ESPECIAS Y HIERBAS :<span class="opcion" id="span-hierbas"></span></h3>
+            <div class="d-inline">
+                <h3>ESPECIAS Y HIERBAS :<span class="opcion" id="span-hierbas"></span></h3>
+                <label for="cantExtras" class="form-label">CANTIDAD DE EXTRAS A AGREGAR</label>
+                <input type="range" class="form-range" id="cantExtras" min="0" max="100" value="0">
             </div>
         </div>
     <div class="container-lg mx-auto p-5 text-center">
         <h4 class="barlow-condensed-medium-secondary text-center text-uppercase">programacion de la entrega</h4>
     </div>
-    <div class="fondo_de_color container-sm text-center m-3 barlow-condensed-medium-secondary">
+    <div class="fondo_de_color container- text-center m-3 barlow-condensed-medium-secondary">
         <form>
             <div class="mb-3">
             <label for="inputNombre" class="form-label">NOMBRE</label>
@@ -249,11 +255,11 @@
             <label for="inputMail" class="form-label"> E-MAIL</label>
             <input type="email" class="form-control" id="inputMailPerso">
             </div>
-            <div class="mb-3"
+            <div class="mb-3">
             <label for="inputfecha" class="form-label"> FECHA DE ENTREGA</label>
             <input type="date" class="form-control" id="inputfechaPerso">
             </div>
-            <button type="submit" class="botones mb-3" style="width: 100%;">ENVIAR</button> 
+            <button type="submit" class="botones mb-3" style="width: 100%;">ENVIAR</button>
         </form> 
     </div>
 </body>
