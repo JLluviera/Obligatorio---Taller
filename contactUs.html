@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" /></head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar d-lg-flex flex-wrap">
+    <div class="container-lg gx-5">
+        <a class="navbar-brand" href="./home.html">
+        <img src="./imagenes obligatorio/soltar.png" alt="Logo" width="30" height="24">
+        </a>
+        <a class="navbar-brand p-2" href="./home.html">Alcomix</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link barlow-condensed-medium" href="./home.html">Principal</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link barlow-condensed-medium" href="./creaTuSangria.html">Ordena tu Sangria</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active barlow-condensed-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nosotros
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item barlow-condensed-medium" href="./aboutUs.html">Acerca de Nosotros</a></li>
+                <li><a class="dropdown-item barlow-condensed-medium" aria-current="page" href="./contactUs.html">Contactanos</a></li>
+                <li><hr class="dropdown-divider"></li>
+            </ul>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+<body>
+    <div class="container-fluid mx-auto p-4 text-center fondo_de_color">
+        <h1 class="barlow-condensed-medium text-uppercase">
+        CONTACTA CON NOSOTROS
+        </h1>
+        <div aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./home.html">PRINCIPAL</a></li>
+              <li class="breadcrumb-item"><a>NOSOTROS</a></li>
+              <li class="breadcrumb-item active" aria-current="page">CONTACTANOS </li>
+            </ol>
+        </div>
+    </div>
+    <div class="container text-center m-3">
+        <div class="row align-items-center">
+            <div class="col fondo_de_color m-3 barlow-condensed-medium-secondary">
+                <form>
+                    <div class="mb-3">
+                    <label for="inputNombre" class="form-label">NOMBRE</label>
+                    <input type="text" class="form-control" id="inputNombre">
+                    </div>
+                    <div class="mb-3">
+                    <label for="inputMail" class="form-label"> E-MAIL</label>
+                    <input type="email" class="form-control" id="inputMail">
+                    </div>
+                    <div class="mb-3">
+                    <label for="mensaje" class="form-label">SU MENSAJE</label>
+                    <input type="text" class="form-control" id="mensaje">
+                    </div>
+                    <button type="submit" class="botones mb-3" style="width: 100%;">ENVIAR</button> 
+                </form> 
+            </div>
+            <div class="col m-3 barlow-condensed-medium-secondary">
+                <div class="d-lg-flex align-items-center">
+                    <span class="m-1 material-symbols-outlined">
+                        house
+                    </span>
+                    <h4 class="m-1 barlow-condensed-medium-secondary">DIRECCION</h4>
+                    <h5 class="m-1 barlow-condensed-medium-text">458 Gral Artigas, Colonia del Sacramento, Uruguay</h5>
+                </div>
+                <div class="d-lg-flex align-items-center">
+                    <span class="m-1 material-symbols-outlined">
+                        call
+                    </span>
+                    <h4 class="m-1 barlow-condensed-medium-secondary">TELEFONO</h4>
+                    <h5 class="m-1 barlow-condensed-medium-text">+598 (098) 273 231</h5>
+                </div>
+                <div class="d-lg-flex align-items-center">
+                    <span class="m-1 material-symbols-outlined">
+                        mail
+                    </span>
+                    <h4 class="m-1 barlow-condensed-medium-secondary">E-MAIL</h4>
+                    <h5 class="m-1 barlow-condensed-medium-text">soporte@alcomix.com</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="container-fluid p-4">
+    <h3 class="text-center barlow-condensed-medium"> ALCOMIX</h3>
+</footer>
+</html>

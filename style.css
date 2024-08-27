@@ -1,0 +1,21 @@
+.fondo_de_color {
+    background-color: #8f8f8f;
+}
+
+.botones {
+    background-color: black;
+    color: white;
+    width: max-content;
+    height: 2.5rem;
+}
+
+.botones:hover {
+    background-color: #626262;
+    color: white;
+    border: 2rem #626262;
+}
+
+footer {
+    background-color: #626262;
+    color: white;
+}
